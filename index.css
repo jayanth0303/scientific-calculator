@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.App {
+  text-align: center;
+}
+.calculator {
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.display {
+  height: 50px;
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+button {
+  height: 50px;
+  font-size: 1.2rem;
+  border: none;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #ddd;
+}
